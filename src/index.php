@@ -3,23 +3,16 @@
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script type="text/javascript" src="dojo.js"></script>
+        <script type="text/javascript" src="http://code.createjs.com/easeljs-0.4.2.min.js"></script>
     </head>
     <body>
         <script type="text/javascript">
-            require(["dom"],function(dom)
-            {
-                var node = dom.byId("temp");
-                
-                node.innerHTML += "From Dojo";
-                
-                
-            }
-                    
-        );
+            
+               Bitmap map = new Bitmap('../resources/arts/religion/religion-1.eps.png');
+        
         </script>
 
-        
+
         <div id="temp">
             My name is Munna
         </div>
