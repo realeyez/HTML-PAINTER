@@ -48,13 +48,12 @@ if($form_success)
 $responseMarkup = '<div class="responseMessage">'.$response.'</div>';
 ?>
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>YIW Minimal | A clean &amp; professional free template</title>
+	<title>Demo T-Shirt Designer Website</title>
  
-    <meta name="author" content="Sara [mascaradesign.it] for Your Inspiration Web [yourinspirationweb.com]" />
+    <meta name="author" content="Md. Maksud Alam Chowdhury" />
     <meta name="keywords" content=""
     />
  	<meta name="description" content=""
@@ -70,19 +69,27 @@ $responseMarkup = '<div class="responseMessage">'.$response.'</div>';
     <![endif]-->
     <!-- [template css] end -->
     
-	<script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
-
+    <!-- [template css javascript] begin -->
+    <link rel="stylesheet" href="css/project.css" type="text/css" media="screen, projection" />
+    <!-- [template css javascript] end -->
+	
+	<!-- [JS] begin -->
+    <script  type="text/javascript" src="js/jquery-1.3.1.min.js"></script> 
+    <script  type="text/javascript" src="js/scripts.js"></script>
+    <script  type="text/javascript" src="js/coda-slider.1.1.1.js"></script>
+    <script  type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+    <script  type="text/javascript" src="js/jquery-easing.1.2.pack.js"></script>
+    <!-- [JS] end -->
+  
 </head>
-
-<body class="body">
-
+<body>
+	
 	<!-- START TOP SECTION -->
 	<div class="container_12">
 	
 		<!-- START LOGO -->
 		<div class="grid_4 header">
-			<a href="index.htm"><img src="images/logo.gif" alt="YIW minimal" /></a>
+			<a href="index.htm"><img src="images/logo.png" alt="YIW minimal" /></a>
 		</div>
 		<!-- END LOGO -->
    	 
@@ -90,10 +97,10 @@ $responseMarkup = '<div class="responseMessage">'.$response.'</div>';
    	  	<div class="grid_8 header">
    	  		<div id="navigation">
 				<ul id="nav">
-					<li id="home"><a href="index.htm" title="Home page">Home</a></li>
+					<li id="home"><a href="index.htm" title="Home page" >Home</a></li>
+                    <li id="designer"><a href="design.htm" title="Design">Design </a></li>
 					<li id="about"><a href="about.htm" title="About">About</a></li>
-					<li id="portfolio"><a href="portfolio.htm" title="Portfolio">Portfolio</a></li>
-					<li id="contact"><a href="contact.php" title="Contact" class="currentPage">Contact</a></li>
+					<li id="portfolio"><a href="contact.php" title="Contact" class="currentPage">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -190,14 +197,12 @@ $responseMarkup = '<div class="responseMessage">'.$response.'</div>';
 	
    	<div class="clear"></div>
    	
-	<!-- START FOOTER -->
+	   	<!-- START FOOTER -->
    	<div class="container_12">
-	   	<p class="footer">
-	   		Copyright 2009 by <strong>Your Inspiration Web</strong> <br/>
-	   		YIWMinimal - clean &amp; cool portfolio template - download it for free!
-		</p>
+	   	<p class="footer">Footer Here</p>
 	</div>
 	<!-- END FOOTER -->
+
 	
 <!-- contact form validation -->
 <script type="text/javascript">	

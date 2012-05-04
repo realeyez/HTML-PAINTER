@@ -1,0 +1,50 @@
+#tools{
+	position:absolute;
+	float:left;
+	border:solid;
+	border-bottom-color:#930;
+	z-index:auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+	padding: auto;
+	margin: 0pt 0pt 6px;
+	font-size:11px;
+	height:294px;
+	font-weight:300;
+	display:block;
+	width: 266px;
+	}
+#menuBar{
+	float:!important;
+	position:absolute;
+	border:none;
+	display:block;
+	overflow:hidden;
+	width: 271px;
+	height: 52px;
+	}
+#toolbox{
+	overflow:auto;
+	min-height:240px;
+	max-height:571px;
+	position:absolute;
+	display:block;
+	width: 241px;
+	left: 6px;
+	top: 56px;
+	border:none;
+}
+#drawingSheet{
+	width: 609px;
+	height: 500px;
+	top:35%;
+	position:absolute;
+	overflow:auto;
+	z-index:2;
+	left: 40%;
+	}
+#canvas{
+	height:100%;
+	width:100%;
+	overflow:auto;
+	visibility:visible;}
